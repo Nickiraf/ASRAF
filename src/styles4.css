@@ -1,0 +1,120 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  background-color: #5c6bc0;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'Luckiest Guy', sans-serif; /* Apply Retro Groovy Font */
+}
+
+/* Buttons Styling */
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.buttons button {
+  background-color: #ff9f9f; /* Light pink button background */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: 'Luckiest Guy', sans-serif; /* Apply Retro Groovy Font */
+}
+
+.buttons button:hover {
+  background-color: #ff6f6f; /* Darker pink on hover */
+}
+
+.buttons a {
+  color: #fff; /* White text color */
+  text-decoration: none;
+}
+
+.buttons a:hover {
+  text-decoration: underline;
+}
+
+/* Watchlist section */
+#watchlist {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.anime-container {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #cccccc;
+  padding: 10px 0;
+}
+
+.anime-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-right: 20px;
+  flex: 1;
+  font-family: 'Luckiest Guy', sans-serif; /* Apply Retro Groovy Font */
+}
+
+.anime-image {
+  width: 120px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+label {
+  font-weight: bold;
+  font-family: 'Luckiest Guy', sans-serif; /* Apply Retro Groovy Font */
+}
+
+.select-container {
+  margin-right: 20px;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: 'Luckiest Guy', sans-serif; /* Apply Retro Groovy Font */
+}
+
+.delete-button:hover {
+  background-color: #e53935;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .anime-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .anime-title,
+  .anime-image,
+  label,
+  .delete-button {
+    margin: 10px 0;
+  }
+}

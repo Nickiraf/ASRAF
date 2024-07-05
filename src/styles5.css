@@ -1,0 +1,105 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  background-color: #bd5c83;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.banner h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+/* Buttons Styling */
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.buttons button {
+  background-color: #ff9ffc; /* Light pink button background */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.buttons button:hover {
+  background-color: #e56fff; /* Darker pink on hover */
+}
+
+.buttons a {
+  color: #fff; /* White text color */
+  text-decoration: none;
+}
+
+.buttons a:hover {
+  text-decoration: underline;
+}
+
+/* Anime List Section */
+.anime-list-section {
+  padding: 2rem;
+}
+
+#genre-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.anime-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.anime-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.anime-card:hover {
+  transform: translateY(-5px);
+}
+
+.anime-card img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.anime-card h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.anime-card p {
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .anime-list {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}

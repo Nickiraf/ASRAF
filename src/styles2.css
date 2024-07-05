@@ -1,0 +1,194 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+/* Body and General Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f0f0; /* Light grey background */
+  color: #333; /* Dark grey text */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styling */
+.banner {
+  background-color: #66cccc; /* Light turquoise */
+  text-align: center;
+  padding: 1rem;
+}
+
+.banner h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #fff; /* White text */
+  font-family: 'Luckiest Guy', sans-serif; /* Apply Retro Groovy Font */
+}
+
+.banner p {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+/* Buttons Styling */
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.buttons button {
+  background-color: #ff9f9f; /* Light pink button background */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: 'Luckiest Guy', sans-serif; /* Apply Retro Groovy Font */
+}
+
+.buttons button:hover {
+  background-color: #ff6f6f; /* Darker pink on hover */
+}
+
+.buttons a {
+  color: #fff; /* White text color */
+  text-decoration: none;
+}
+
+.buttons a:hover {
+  text-decoration: underline;
+}
+
+/* Anime Info Section Styling */
+#anime-info {
+  text-align: center;
+  border-radius: 9px;
+  margin: 2rem auto;
+  height: 1500 auto;
+  max-width: 900px;
+  background-color: #66cccc;
+}
+
+#anime-info h1 {
+  font-size: 2rem;
+  color: #333;
+  font-family: 'Luckiest Guy', sans-serif; /* Apply Retro Groovy Font */
+  margin-bottom: 1rem;
+}
+
+#anime-info img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.info-table {
+  background-color: #e0f7fa; /* Default pastel color */
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 600px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#synopsis-table {
+  background-color: #ffe4e1; /* Pastel pink */
+}
+
+#details-table {
+  background-color: #e0f7fa; /* Light pastel blue */
+}
+
+#anime-info p {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0.5rem 0;
+  font-family: 'Luckiest Guy', sans-serif; /* Apply Retro Groovy Font */
+}
+
+#anime-info span {
+  font-weight: lighter;
+}
+#anime-info samp {
+  font-weight: bold;
+}
+
+#anime-info a {
+  color: #333;
+  text-decoration: none;
+}
+
+#anime-info a:hover {
+  text-decoration: underline;
+}
+
+/* Related Anime Section Styling */
+#related-anime {
+  text-align: center;
+  margin: 2rem auto;
+  background-color: papayawhip;
+}
+
+#related-anime h2 {
+  font-size: 2rem;
+  color: #333;
+  font-family: 'Luckiest Guy','Poppins', sans-serif; /* Apply Retro Groovy Font */
+}
+
+#related-anime-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.related-anime {
+  background-color: #f0f0f0; /* Light grey background */
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  text-align: center;
+  max-width: 250px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  font-family: 'Luckiest Guy', sans-serif; /* Apply Retro Groovy Font */
+}
+
+.related-anime:hover {
+  transform: translateY(-5px);
+}
+
+.related-anime img {
+  max-width: 100%;
+  height: auto;
+}
+
+.related-anime p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .buttons button {
+    padding: 0.5rem 1rem;
+    margin: 0.3rem;
+  }
+
+  .related-anime {
+    max-width: 100%;
+  }
+
+  #anime-info {
+    max-width: 100%;
+  }
+
+  .info-table {
+    max-width: 90%;
+  }
+}

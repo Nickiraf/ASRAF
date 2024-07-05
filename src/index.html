@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animax World</title>
+  <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+  <header class="banner">
+    <h1>Animax World</h1>
+    <p>Discover your favorite anime series and movies.</p>
+  </header>
+
+  <div class="buttons">
+    <button><a href="list.html">Search</a></button>
+    <button><a href="watchlist.html">Go to Watchlist</a></button>
+    <button><a href="homepage.html">Homepage</a></button>
+  </div>
+
+  <div id="anime-info">
+    <h1 id="title">Anime Title</h1>
+    <img id="anime-image" src="anime-image.jpg" alt="Anime Image">
+    <div class="info-tables">
+      <div class="info-table" id="synopsis-table">
+        <p>Synopsis: <span id="synopsis">Brief synopsis here.</span></p>
+      </div>
+      <div class="info-table" id="details-table">
+        <p>Score: <span id="score">8.5</span></p>
+        <p>Rank: <span id="rank">1</span></p>
+        <p>Popularity: <span id="popularity">#123</span></p>
+        <p>Genres: <span id="genres">Action, Adventure</span></p>
+        <p>Producers: <span id="producers">Studio XYZ</span></p>
+        <p>Source: <span id="source">Manga</span></p>
+        <p>Rating: <span id="rating">PG-13</span></p>
+        <p>Releases: <span id="releases">Spring 2024</span></p>
+        <p>Schedules: <span id="schedules">Weekly</span></p>
+        <div class="buttons">
+          <p><a id="mal-url" href="https://myanimelist.net/" target="_blank"><button>View on MyAnimeList</button></a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="related-anime">
+    <h2>Related Anime</h2>
+    <div id="related-anime-container">
+      <div class="related-anime">
+        <img src="related-anime1.jpg" alt="Related Anime 1">
+        <p>Related Anime 1</p>
+      </div>
+      <div class="related-anime">
+        <img src="related-anime2.jpg" alt="Related Anime 2">
+        <p>Related Anime 2</p>
+      </div>
+      <div class="related-anime">
+        <img src="related-anime3.jpg" alt="Related Anime 3">
+        <p>Related Anime 3</p>
+      </div>
+      <!-- Add more related anime as needed -->
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
